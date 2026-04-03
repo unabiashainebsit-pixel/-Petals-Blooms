@@ -7,7 +7,7 @@
 ---
 
 ## 💻 Technologies Used and Tools Applied
-## 🌐 Technologies Used
+
 **1. HTML (HyperText Markup Language)**
 - Used to create the structure of the website
 - Defines elements like header, sections, images, and text
