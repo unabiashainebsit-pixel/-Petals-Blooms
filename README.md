@@ -66,7 +66,7 @@ script.js → for functionality
 
 **5. Bayro, Dan Kenneth**
 
-
+---
 *© 2026 BSIT - IT1J. All rights reserved.*
 
 
