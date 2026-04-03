@@ -5,6 +5,17 @@
 **Web - Technologies**
 
 ---
+## 🌸 Project Concept
+
+Petals & Blooms is a boutique florist website created to showcase and sell beautiful floral arrangements while sharing the meaning and feelings behind each flower. We believe flowers are more than just decoration. They are ways to show love, appreciation, and connection.
+
+The website is designed to be easy to use and pleasant to explore. With a clean layout, soft typography, and features like a product gallery, add-to-cart system, and feedback section, visitors can move smoothly from browsing flowers to learning the story behind our shop.
+
+This project is inspired by a personal story of unconditional love. The business was created to support and celebrate someone’s passion for flowers. That makes the website more than just an online store. It is a space that shares care and connection.
+
+Petals & Blooms lets people not only buy flowers but also experience the little stories each bloom tells.
+
+--- 
 
 ## 💻 Technologies Used and Tools Applied
 
@@ -19,7 +30,6 @@
 **3. JavaScript**
 - Used for interactivity and functionality
 - Handles actions like:
-  
    **switching sections** (navigation),
    **adding items to cart,** 
   **displaying feedback.**
@@ -43,6 +53,8 @@
 style.css → for design
 script.js → for functionality
 
+---
+
 ## 👥 Development Team:
 **1. Unabia, Shaine**
 
@@ -54,18 +66,7 @@ script.js → for functionality
 
 **5. Bayro, Dan Kenneth**
 
-## 🌸 Project Concept
 
-Petals & Blooms is a boutique florist website created to showcase and sell beautiful floral arrangements while sharing the meaning and feelings behind each flower. We believe flowers are more than just decoration. They are ways to show love, appreciation, and connection.
-
-The website is designed to be easy to use and pleasant to explore. With a clean layout, soft typography, and features like a product gallery, add-to-cart system, and feedback section, visitors can move smoothly from browsing flowers to learning the story behind our shop.
-
-This project is inspired by a personal story of unconditional love. The business was created to support and celebrate someone’s passion for flowers. That makes the website more than just an online store. It is a space that shares care and connection.
-
-Petals & Blooms lets people not only buy flowers but also experience the little stories each bloom tells.
-
-
----
 *© 2026 BSIT - IT1J. All rights reserved.*
 
 
