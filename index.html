@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petals & Blooms | Boutique Florist</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Petals & Blooms</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('gallery')">Gallery</a></li>
+                <li><a href="#" onclick="showSection('our-story')">Our Story</a></li>
+                <li><a href="#" onclick="showSection('shop-details')">Shop Details</a></li>
+                <li><a href="#" onclick="showSection('feedback-section')">Feedback</a></li>
+                <li><a href="#" class="cart-btn" onclick="showSection('cart-page')">Cart (<span id="count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="page-section">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Petals & Blooms</h1>
+                    <p>Where every flower tells a story of unconditional love.</p>
+                    <button class="btn" onclick="showSection('gallery')">Explore Gallery</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="page-section" style="display:none;">
+            <h2 class="section-title">Floral Gallery</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=400" alt="Pink Peonies">
+                    <h3>Blush Peony</h3>
+                    <p class="price">$58.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Blush Peony', 58, this)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="lily.jpg" alt="White Lilies">
+                    <h3>Midnight Lilies</h3>
+                    <p class="price">$45.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Midnight Lilies', 45, this)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=400" alt="Wildflowers">
+                    <h3>Wildflowers</h3>
+                    <p class="price">$32.00</p>
+                    <button class="add-to-cart" onclick="addToCart('Wildflowers', 32, this)">Add to Cart</button>
+                </div>
+        <div class="product-card">
+            <img src="pink ecuadorian roses.jpg" alt="Pink Ecuadorian Rose">
+            <h3>Pink Ecuadorian Rose</h3>
+            <p class="price">$78.00</p>
+            <button class="add-to-cart" onclick="addToCart('Pink Ecuadorian Rose', 78, this)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="calla lily.jpg" alt="Calla Lily">
+            <h3>Calla Lily</h3>
+            <p class="price">$50.00</p>
+            <button class="add-to-cart" onclick="addToCart('Calla Lily', 50, this)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="sunflower.jpeg" alt="Sunflowers">
+            <h3>Sunflowers</h3>
+            <p class="price">$35.00</p>
+            <button class="add-to-cart" onclick="addToCart('Sunflowers', 35, this)">Add to Cart</button>
+        </div>
+         <div class="product-card">
+            <img src="chrysanthemum.jpg" alt="Chrysanthemum">
+            <h3>Chrysanthemum</h3>
+            <p class="price">$30.00</p>
+            <button class="add-to-cart" onclick="addToCart('chrysanthemum', 30, this)">Add to Cart</button>
+        </div>
+         <div class="product-card">
+            <img src="roses.jpg" alt="Roses">
+            <h3>Roses</h3>
+            <p class="price">$45.00</p>
+            <button class="add-to-cart" onclick="addToCart('Roses', 45, this)">Add to Cart</button>
+        </div>
+         <div class="product-card">
+            <img src="lavander.jpg" alt="Lavander">
+            <h3>Lavander</h3>
+            <p class="price">$65.00</p>
+            <button class="add-to-cart" onclick="addToCart('Lavander', 65, this)">Add to Cart</button>
+        </div>
+         <div class="product-card">
+            <img src="dahlia.jpg" alt="Dahlia">
+            <h3>Dahlia</h3>
+            <p class="price">$70.00</p>
+            <button class="add-to-cart" onclick="addToCart('Dahlia', 70, this)">Add to Cart</button>
+        </div>
+         <div class="product-card">
+            <img src="poppies.jpg" alt="Roses">
+            <h3>Poppies</h3>
+            <p class="price">$45.00</p>
+            <button class="add-to-cart" onclick="addToCart('Poppies', 45, this)">Add to Cart</button>
+        </div>
+        
+    </div>
+</section>
+            </div>
+        </section>
+
+        <section id="our-story" class="page-section" style="display:none;">
+            <div class="story-section">
+                <div class="story-content">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Petals & Blooms started with a simple truth: a girl <strong>(Shaine Unabia)</strong> who found magic in every petal and a man <strong>(Mark Gabriel Indefenzo)</strong> who wanted to capture that magic for her. Built on a foundation of <strong>unconditional love</strong>, this shop was created by him as a sanctuary for her passion.</p>
+                    <p>Today, our team has grown to <strong>3 dedicated members Dan Kenneth Bayro, Stephanie Mendoza, and Gilianah Savedia </strong>, but the heart of the shop remains the same—a tribute to the beauty of flowers and the strength of the bond that started it all.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop-details" class="page-section" style="display:none;">
+            <div class="details-section">
+                <h2 class="section-title">Shop Details</h2>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <h3>📍 Visit Us</h3>
+                        <p>#133 Street Mahogany, Vicar Village Muntinlupa City</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>📞 Contact</h3>
+                        <p>Phone: (555) 123-4567<br>Email: hello@petalsandblooms.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback-section" class="page-section" style="display:none; padding: 50px 10%;">
+    <h2 class="section-title">Share Your Experience</h2>
+    
+    <div style="max-width: 600px; margin: 0 auto 50px; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+        <form id="review-form" onsubmit="addReview(event)">
+            <div style="margin-bottom: 15px;">
+                <label style="display:block; margin-bottom: 5px;">Your Name</label>
+                <input type="text" id="reviewer-name" required style="width:100%; padding:10px; border:1px solid #ddd; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label style="display:block; margin-bottom: 5px;">Your Message</label>
+                <textarea id="reviewer-message" required style="width:100%; padding:10px; border:1px solid #ddd; border-radius: 5px; height: 100px;"></textarea>
+            </div>
+            <button type="submit" class="btn" style="width:100%;">Submit Feedback</button>
+        </form>
+    </div>
+
+    <h2 class="section-title">What Others Are Saying</h2>
+    <div id="reviews-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+        </div>
+</section>
+
+        <section id="cart-page" class="page-section" style="display:none; padding: 50px 10%;">
+            <h2 class="section-title">Your Cart</h2>
+            <div id="cart-items-list" style="max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <p>Your cart is empty.</p>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn" onclick="showSection('gallery')" style="background-color: transparent; color: #333; border: 1px solid #ccc;">Continue Shopping</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Petals & Blooms. Built for Love.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
